@@ -1,131 +1,132 @@
 <h1 align='center'>Task Manager</h1>
 
-<p align="center">En uppgiftshanterare byggd i Angular (TypeScript) med SCSS för styling. Projektet använder en mock-API (JSON-server) för att hantera data, men allt startas automatiskt med ett kommando.</p>
+<p align="center">A task management app built with Angular (TypeScript) and SCSS for styling. The project uses a mock API (JSON-server) to handle data, but everything is started automatically with a single command.</p>
 
 ---
 
-## Funktioner
+## Features
 
-- ✨ Skapa nya uppgifter
-- ✅ Markera uppgifter som klara
-- 🗑️ Ta bort uppgifter
-- 📋 Lista alla uppgifter
+- ✨ Create new tasks  
+- ✅ Mark tasks as completed  
+- 🗑️ Delete tasks  
+- 📋 View a list of all tasks  
 
 ---
 
-## Teknologier
+## Technologies
 
 ### Frontend
-
-- Angular – ramverk för webbaserade applikationer
-- TypeScript – typat språk ovanpå JavaScript
-- HTML5 – struktur för användargränssnittet
-- SCSS (Sass) – CSS-preprocessor för styling
-- RxJS – hantering av asynkrona operationer
-- Angular CLI – verktyg för utveckling, test och bygg
+- **Angular** – framework for building web applications  
+- **TypeScript** – typed superset of JavaScript  
+- **HTML5** – structure for the user interface  
+- **SCSS (Sass)** – CSS preprocessor for styling  
+- **RxJS** – handling asynchronous operations  
+- **Angular CLI** – tools for development, testing, and building  
 
 ### Backend (mock)
+- **JSON-server** – simulates a REST API backend  
+- **Node.js** – runtime for JavaScript/TypeScript  
+- **npm** – package manager for scripts and dependencies  
+- **concurrently** – runs frontend and backend in parallel  
 
-- JSON-server – simulerar en REST API-backend
-- Node.js – körmiljö för JavaScript/TypeScript
-- npm – pakethanterare för scripts och beroenden
-- concurrently – kör frontend och backend parallellt
-
-### Övrigt
-
-- Git & GitHub – versionshantering
-- Visual Studio Code – utvecklingsmiljö
+### Other
+- **Git & GitHub** – version control  
+- **Visual Studio Code** – development environment  
 
 ---
 
-## Arkitektur
+## Architecture
 
-Projektet består av:
-- Frontend (Angular)
-  - Startas med ng serve
-  - Körs på http://localhost:4200
+The project consists of:  
 
-- Backend (mock-API via JSON-server)
-  - Startas med npm run start:api
-  - Körs på http://localhost:3000
+- **Frontend (Angular)**  
+  - Started with `ng serve`  
+  - Runs on [http://localhost:4200](http://localhost:4200)  
 
-- Utveckling
-  - npm start kör båda parallellt (via concurrently)
+- **Backend (mock API via JSON-server)**  
+  - Started with `npm run start:api`  
+  - Runs on [http://localhost:3000](http://localhost:3000)  
+
+- **Development**  
+  - `npm start` runs both frontend and backend in parallel (via `concurrently`)  
 
 ---
 
-##  Projektstruktur
+## Project Structure
 
 ```
 taskmanager/
-├── mock-api/              # JSON-server med db.json (mock-backend)
-│   └── db.json            # Datafil för uppgifter
-├── src/                   # Angular-källkod
-│   ├── app/               # Huvudlogik och komponenter
-│   ├── assets/            # Bilder, ikoner, etc.
-│   ├── environments/      # Miljöfiler (dev/prod)
-│   └── index.html         # Rot-HTML-fil
-├── angular.json           # Angular-konfiguration
-├── package.json           # Projektets beroenden & scripts
-├── tsconfig.json          # TypeScript-konfiguration
-└── README.md              # Dokumentation
+├── mock-api/              # JSON-server with db.json (mock backend)
+│   └── db.json            # Data file for tasks
+├── src/                   # Angular source code
+│   ├── app/               # Main logic and components
+│   ├── assets/            # Images, icons, etc.
+│   ├── environments/      # Environment files (dev/prod)
+│   └── index.html         # Root HTML file
+├── angular.json           # ngular configuration
+├── package.json           # Project dependencies & scripts
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # Documentation
 ```
 
 ---
 
 ## Installation
 
-1. Klona repot:
+1. Clone the repository:  
 ```
 git clone https://github.com/Jojje84/taskmanager.git
 cd taskmanager
 ```
 
-2. Installera beroenden:
+2. Install dependencies:
 ```
 npm install
 ```
 
-3. Starta applikationen (frontend + mock-API):
+3. Start the application (frontend + mock API):
 ```
 npm start
 ```
 
-4. Öppna i webbläsaren:
+4. Open in your browser:
  - Frontend: http://localhost:4200
  - Mock-API: http://localhost:5000
 
 ---
 
-## Användning
+## Usage
 
-- Lägg till nya uppgifter i formuläret
-- Se och hantera dem i listan
-- Data sparas via mock-API:t
+- Add new tasks via the form
+- View and manage tasks in the list
+- Data is stored via the mock API
 
 ---
 
-## Skärmbilder
+## Screenshots
 
-- Home-sida
+- Home
 
 ![Home-sida](screenshots/home.png)
 
-- Dashboard-sida
+- Dashboard
 
 ![dashboard-sida](screenshots/dashboard.png)
 
-- List-sida
+- List
 ![list-sida](screenshots/list.png)
 
-- Download-sida
+- Download
 ![download -sida](screenshots/download.png)
 
 ---
 
-## Kontakt
+## Contact
 
 👤 Jorge
 
-- GitHub: [Jojje84](https://github.com/Jojje84)
-- E-post: [jorgeavilas@icloud.com](mailto:jorgeavilas@icloud.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/Jojje84) 
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-Contact-blue?logo=icloud&logoColor=white)](mailto:jorgeavilas@icloud.com) 
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-avila-35622030/)
