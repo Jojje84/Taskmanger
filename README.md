@@ -127,6 +127,5 @@ npm start
 
 👤 Jorge
 
-GitHub: [Jojje84](https://github.com/Jojje84)
-
-
+- GitHub: [Jojje84](https://github.com/Jojje84)
+- E-post: [jorgeavilas@icloud.com](mailto:jorgeavilas@icloud.com)
