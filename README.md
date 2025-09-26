@@ -74,7 +74,7 @@ taskmanager/
 ---
 
 ## Installation
-
+```
 1. Klona repot:
 ```
 git clone https://github.com/Jojje84/taskmanager.git
@@ -94,7 +94,7 @@ npm start
 1. Öppna i webbläsaren:
  - Frontend: http://localhost:4200
  - Mock-API: http://localhost:5000
-
+```
 ---
 
 ## Användning
