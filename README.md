@@ -11,6 +11,8 @@
 - 🗑️ Ta bort uppgifter
 - 📋 Lista alla uppgifter
 
+---
+
 ## Teknologier
 
 ### Frontend
@@ -27,6 +29,7 @@
 - JSON-server – simulerar en REST API-backend
 - Node.js – körmiljö för JavaScript/TypeScript
 - npm – pakethanterare för scripts och beroenden
+- concurrently – kör frontend och backend parallellt
 
 ### Övrigt
 
@@ -39,18 +42,36 @@
 
 Projektet består av:
 - Frontend (Angular)
-
-Körs på http://localhost:4200
-
-Hanterar användargränssnittet
+  - Startas med ng serve
+  - Körs på http://localhost:4200
 
 - Backend (mock-API via JSON-server)
+  - Startas med npm run start:api
+  - Körs på http://localhost:3000
 
-Körs parallellt på http://localhost:5000
+- Utveckling
+  - npm start kör båda parallellt (via concurrently)
 
-Startas automatiskt via npm start
+---
 
-Frontend kommunicerar med backend genom HTTP-anrop.
+##  Projektstruktur
+
+```
+taskmanager/
+├── mock-api/              # JSON-server med db.json (mock-backend)
+│   └── db.json            # Datafil för uppgifter
+├── src/                   # Angular-källkod
+│   ├── app/               # Huvudlogik och komponenter
+│   ├── assets/            # Bilder, ikoner, etc.
+│   ├── environments/      # Miljöfiler (dev/prod)
+│   └── index.html         # Rot-HTML-fil
+├── angular.json           # Angular-konfiguration
+├── package.json           # Projektets beroenden & scripts
+├── tsconfig.json          # TypeScript-konfiguration
+└── README.md              # Dokumentation
+```
+
+---
 
 ## Installation
 
@@ -71,42 +92,41 @@ npm start
 ```
 
 Öppna i webbläsaren:
-
-Frontend: http://localhost:4200
-
-Mock-API: http://localhost:5000
+ - Frontend: http://localhost:4200
+ - Mock-API: http://localhost:5000
 
 ---
 
 ## Användning
 
-Lägg till nya uppgifter i formuläret
-
-Se och hantera dem i listan
-
-Data sparas via mock-API:t
+- Lägg till nya uppgifter i formuläret
+- Se och hantera dem i listan
+- Data sparas via mock-API:t
 
 ---
 
 ## Skärmbilder
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+- Home-sida
 
+![Home-sida](screenshots/home.png)
+
+- Dashboard-sida
+
+![dashboard-sida](screenshots/dashboard.png)
+
+- List-sida
+![list-sida](screenshots/list.png)
+
+- Download-sida
+![download -sida](screenshots/download.png)
+
+---
 
 ## Kontakt
 
 👤 Jorge
 
-GitHub: Jojje84
+GitHub: [Jojje84](https://github.com/Jojje84)
 
 
-
-
-
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
