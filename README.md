@@ -1,59 +1,112 @@
-# Taskmanager
+<h1 align='center'>Task Manager</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+<p align="center">En uppgiftshanterare byggd i Angular (TypeScript) med SCSS för styling. Projektet använder en mock-API (JSON-server) för att hantera data, men allt startas automatiskt med ett kommando.</p>
 
-## Development server
+---
 
-To start a local development server, run:
+## Funktioner
 
-```bash
-ng serve
+- ✨ Skapa nya uppgifter
+- ✅ Markera uppgifter som klara
+- 🗑️ Ta bort uppgifter
+- 📋 Lista alla uppgifter
+
+## Teknologier
+
+### Frontend
+
+- Angular – ramverk för webbaserade applikationer
+- TypeScript – typat språk ovanpå JavaScript
+- HTML5 – struktur för användargränssnittet
+- SCSS (Sass) – CSS-preprocessor för styling
+- RxJS – hantering av asynkrona operationer
+- Angular CLI – verktyg för utveckling, test och bygg
+
+### Backend (mock)
+
+- JSON-server – simulerar en REST API-backend
+- Node.js – körmiljö för JavaScript/TypeScript
+- npm – pakethanterare för scripts och beroenden
+
+### Övrigt
+
+- Git & GitHub – versionshantering
+- Visual Studio Code – utvecklingsmiljö
+
+---
+
+## Arkitektur
+
+Projektet består av:
+- Frontend (Angular)
+
+Körs på http://localhost:4200
+
+Hanterar användargränssnittet
+
+- Backend (mock-API via JSON-server)
+
+Körs parallellt på http://localhost:5000
+
+Startas automatiskt via npm start
+
+Frontend kommunicerar med backend genom HTTP-anrop.
+
+## Installation
+
+Klona repot:
+```
+git clone https://github.com/Jojje84/taskmanager.git
+cd taskmanager
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+Installera beroenden:
+```
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
+Starta applikationen (frontend + mock-API):
+```
+npm start
 ```
 
-## Building
+Öppna i webbläsaren:
 
-To build the project run:
+Frontend: http://localhost:4200
 
-```bash
-ng build
-```
+Mock-API: http://localhost:5000
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## Användning
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Lägg till nya uppgifter i formuläret
 
-```bash
-ng test
-```
+Se och hantera dem i listan
 
-## Running end-to-end tests
+Data sparas via mock-API:t
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## Skärmbilder
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Kontakt
+
+👤 Jorge
+
+GitHub: Jojje84
+
+
+
+
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
