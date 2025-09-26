@@ -75,23 +75,23 @@ taskmanager/
 
 ## Installation
 
-Klona repot:
+1. Klona repot:
 ```
 git clone https://github.com/Jojje84/taskmanager.git
 cd taskmanager
 ```
 
-Installera beroenden:
+1. Installera beroenden:
 ```
 npm install
 ```
 
-Starta applikationen (frontend + mock-API):
+1. Starta applikationen (frontend + mock-API):
 ```
 npm start
 ```
 
-Öppna i webbläsaren:
+1. Öppna i webbläsaren:
  - Frontend: http://localhost:4200
  - Mock-API: http://localhost:5000
 
