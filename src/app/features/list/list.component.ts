@@ -1,3 +1,14 @@
+/*
+ * Task Manager - List Component
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Taskmanger
+ * License: MIT License - see LICENSE file for details
+ * 
+ * This file contains the list view for tasks with filtering and user selection.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 import { Component, OnInit, signal, effect } from '@angular/core';
 import { CommonModule, AsyncPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';

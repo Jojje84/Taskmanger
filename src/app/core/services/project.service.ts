@@ -1,3 +1,14 @@
+/*
+ * Task Manager - Project Service
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Taskmanger
+ * License: MIT License - see LICENSE file for details
+ * 
+ * This file contains project management service with API integration and signals.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 import { Injectable, WritableSignal, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Project } from '../../models/project.model';

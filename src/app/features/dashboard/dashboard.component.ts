@@ -1,3 +1,14 @@
+/*
+ * Task Manager - Dashboard Component
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Taskmanger
+ * License: MIT License - see LICENSE file for details
+ * 
+ * This file contains the main dashboard with charts and overview widgets.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { User } from '../../models/user.model';

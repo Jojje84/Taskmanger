@@ -1,3 +1,14 @@
+/*
+ * Task Manager - Task Model
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Taskmanger
+ * License: MIT License - see LICENSE file for details
+ * 
+ * This file contains the Task interface model for the task management system.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 // Modell för uppgift (task)
 export interface Task {
   id?: number; // Uppgiftens unika ID (valfri)
